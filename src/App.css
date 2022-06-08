@@ -1,0 +1,34 @@
+.ellenButton{
+  background-color: darkcyan;
+  border:none;
+  padding: 15px;
+  color:azure;
+  border-radius:10px;
+  cursor: pointer;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.253);
+  margin-bottom: 40px;
+}
+.ellenButton:hover{
+  background-color: rgb(2, 87, 87);
+}
+
+.masodikDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quizKeret{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2A2C39;
+}
+
+#title{
+  color: white;
+  font-size: 4vw;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}

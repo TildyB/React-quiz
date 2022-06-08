@@ -1,0 +1,79 @@
+.horizontalLine{
+    width: 60%;
+    color:rgba(230, 228, 228, 0.349);
+    height: 0.2px;
+}
+.kerdesekDiv{
+    width:30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: white
+}
+.kerdesFoDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #252734;
+    width: 70%;
+    margin-bottom: 10px;
+
+}
+.kerdesFoDiv:first-child{
+    margin-top:30px;
+}
+.valaszGomb{
+    background-color: rgba(231, 228, 228, 0);
+    padding: 13px;
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 1rem;
+    color: rgb(255, 255, 255);
+
+}
+.valaszGombValasztott{
+    background-color: yellow;
+    padding: 13px;
+    border: 1px solid rgb(230, 228, 228);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 1rem;
+    color: black;
+}
+.valaszGomb:hover{
+    background-color: rgba(0, 255, 255, 0.404);
+}
+.kerdes{
+    width: 80%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 30px;
+}
+.kerdesInfo{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (max-width: 42rem) {
+    .kerdes{
+        font-size: 20px;
+    }
+    .kerdesFoDiv{
+        width: 95%;
+    }
+    .valaszGomb{
+        padding: 6px;
+    }
+    .kerdesekDiv{
+        width: 80%;
+    }
+    
+}
